@@ -1,0 +1,92 @@
+<menu>
+
+    <menuitem label='Cadastros'>
+        <icon>fa:home fa-fw</icon>
+        <menu>
+            <menuitem label='Medicamentos'>
+                <icon>fa:desktop fa-fw</icon>
+                <action>MedicamentoFormList</action>
+            </menuitem>
+            <menuitem label='Pacientes'>
+                <icon>fa:magic fa-fw</icon>
+                <action>PacienteFormList</action>
+            </menuitem>
+            <menuitem label='Receitas'>
+                <icon>fa:magic fa-fw</icon>
+                <action>MedicamentoPacienteList</action>
+            </menuitem>
+            <menuitem label='Responsável'>
+                <icon>fa:magic fa-fw</icon>
+                <action>ResponsavelFormList</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+
+
+    <menuitem label='Cadastros gerais'>
+        <icon>fa:home fa-fw</icon>
+        <menu>
+            <menuitem label='Medidas'>
+                <icon>fa:book fa-fw</icon>
+                <action>MedidasFormList</action>
+            </menuitem>
+
+            <menuitem label='Funcionários'>
+                <icon>fa:book fa-fw</icon>
+                <action>FuncionarioFormList</action>
+            </menuitem>
+            <menuitem label='Patologias'>
+                <icon>fa:magic fa-fw</icon>
+                <action>PatologiaFormList</action>
+            </menuitem>            
+            <menuitem label='Parentesco'>
+                <icon>fa:book fa-fw</icon>
+                <action>ParentescoFormList</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    
+    
+ <!--
+    <menuitem label='Home'>
+        <icon>fa:home fa-fw</icon>
+        <menu>
+            <menuitem label='Início'>
+                <icon>fa:life-ring fa-fw</icon>
+                <action>WelcomeView</action>
+            </menuitem>
+            
+            <menuitem label='Aprenda'>
+                <icon>fa:book fa-fw</icon>
+                <action>LearnView</action>
+            </menuitem>
+            
+            <menuitem label='Template'>
+                <icon>fa:desktop fa-fw</icon>
+                <action>TemplateView</action>
+            </menuitem>
+            
+            <menuitem label='Construa'>
+                <icon>fa:magic fa-fw</icon>
+                <action>BuildView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    -->
+
+    <menuitem label='Configuração'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Ver módulos'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SystemModulesCheckView</action>
+            </menuitem>
+            
+            <menuitem label='Setup PHP'>
+                <icon>fa:code fa-fw</icon>
+                <action>SystemPHPInfoView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+
+</menu>
