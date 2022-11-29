@@ -1,5 +1,5 @@
-./vendor
-./tmp
-./app/
-./app/config
-./app/databse
+vendor
+tmp
+app/
+app/config
+app/databse
